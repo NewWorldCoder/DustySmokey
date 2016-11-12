@@ -19,18 +19,6 @@
 <!--the above is embedded for facebook api-->
 
 
-<script>
-$(document).ready(function(){
-    $("#hide").click(function(){
-        $("#SD").hide();
-    });
-    $("#show").click(function(){
-        $("#SD").show();
-    });
-});
-</script>
-
-
   <div>
       <p><h1>Profile</h1><br>
         Born in Anastacia, West Virginia in 1976.<br>
@@ -38,7 +26,21 @@ $(document).ready(function(){
         Working as a Dental Hygenist.<br>
         Lives with two Cocker Spaniels: Dusty and Smokey.<br>
         Regularly attends the opera and plays.<br>
+
+        <script>
+        $(document).ready(function(){
+            $("#hide").click(function(){
+                $("#SD").hide();
+            });
+            $("#show").click(function(){
+                $("#SD").show();
+            });
+        });
+        </script>
+
         <p id="SD"><img src = "DustyandSmokey.jpg"></p>
+
+
 
         <button id="hide">Hide</button>
         <button id="show">Show</button>
